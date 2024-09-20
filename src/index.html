@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -16,8 +16,8 @@
         </a>
         <div class="space-x-4">
           <a href="#">Inicio</a>
-          <a href="#">Habilidades</a>
-          <a href="#">Proyectos</a>
+          <a href="#habilidades">Habilidades</a>
+          <a href="#proyectos">Proyectos</a>
         </div>
       </nav>
       <section class="wrapper py-14 flex-col items-center gap-12">
@@ -44,7 +44,7 @@
       </section>
     </header>
     <main>
-      <section class="wrapper py-20 text-center">
+      <section class="wrapper py-20 text-center" id="habilidades">
         <h2 class="text-3xl font-bold">Nuestras Habilidades 👇</h2>
         <div class="mt-12 grid gap-8 max-w-md mx-auto">
           <article class="space-y-6">
@@ -105,6 +105,123 @@
           </article>
         </div>
       </section>
+
+      <section class="bg-slate-50 py-20" id="proyectos">
+        <div class="wrapper text-center">
+          <h2 class="text-3xl font-bold">Nuestro Trabajo</h2>
+          <p class="font-light text-xl text-slate-500">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla atque
+            soluta fugit magnam alias minima fuga nobis dolorem pariatur nihil
+            officiis sunt, deserunt corporis rem necessitatibus sit sequi, quis
+            recusandae!
+          </p>
+          <div class="mt-12 grid gap-12">
+            <article class="w-4/5 mx-auto space-y-4">
+              <img
+                class="aspect-square object-cover rounded-2xl"
+                src="./assets/img1.jpg"
+                alt="imagen ilustracion"
+              />
+              <h3 class="text-2xl font-medium">Apple</h3>
+              <p class="text-slate-500 font-light">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Distinctio praesentium nam corporis optio? Earum iste magni
+                repudiandae quaerat odio, vero temporibus deleniti similique, ea
+                autem eius obcaecati voluptatibus voluptates beatae.
+              </p>
+            </article>
+
+            <article class="w-4/5 mx-auto space-y-4">
+              <img
+                class="aspect-square object-cover rounded-2xl"
+                src="./assets/img2.jpg"
+                alt="imagen ilustracion"
+              />
+              <h3 class="text-2xl font-medium">Coca Cola</h3>
+              <p class="text-slate-500 font-light">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Distinctio praesentium nam corporis optio? Earum iste magni
+                repudiandae quaerat odio, vero temporibus deleniti similique, ea
+                autem eius obcaecati voluptatibus voluptates beatae.
+              </p>
+            </article>
+
+            <article class="w-4/5 mx-auto space-y-4">
+              <img
+                class="aspect-square object-cover rounded-2xl"
+                src="./assets/img3.jpg"
+                alt="imagen ilustracion"
+              />
+              <h3 class="text-2xl font-medium">Nike</h3>
+              <p class="text-slate-500 font-light">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Distinctio praesentium nam corporis optio? Earum iste magni
+                repudiandae quaerat odio, vero temporibus deleniti similique, ea
+                autem eius obcaecati voluptatibus voluptates beatae.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="wrapper py-20 grid gap-12">
+        <div>
+          <h2 class="text-3xl font-bold">
+            Dame tu correo, y te contactare a la brevedad
+          </h2>
+          <p class="text-slatel600 font-light text-lg mt-4">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Necessitatibus assumenda deleniti natus repellat quia. Tempore ut
+            nobis magnam ad soluta delectus harum, dignissimos, itaque quos, et
+            nemo dolorum aut ullam!
+          </p>
+        </div>
+
+        <form class="grid gap-6">
+          <input
+            type="email"
+            placeholder="hola@hola.com"
+            class="border border-slate-900 p-4 rounded-lg"
+          />
+          <input
+            type="submit"
+            value="Contactame!"
+            class="bg-orange-500 text-white py-4 px-10 rounded-lg"
+          />
+        </form>
+      </section>
+
+      <footer class="bg-blue-100">
+        <div class="wrapper py-20">
+          <section
+            class="flex flex-col text-center gap-6 border-b-2 border-slate-400 pb-8"
+          >
+            <h2 class="text-3xl text-slate-900 font-extrabold">Landing.</h2>
+            <p class="text-slate-600">Micorreo@micorreo.com</p>
+          </section>
+          <section class="flex flex-col text-center gap-6 pt-8">
+            <div class="flex justify-center gap-4 text-slate-900">
+              <a href="#">Inicio</a>
+              <a href="#habilidades">Habilidades</a>
+              <a href="#proyectos">Proyectos</a>
+            </div>
+
+            <div class="grid grid-flow-col auto-cols-max gap=8 justify-center">
+              <a href="" class="w-7">
+                <img src="./assets/fb.svg" alt="logo facebook" />
+              </a>
+
+              <a href="" class="w-7">
+                <img src="./assets/instagram.svg" alt="logo instagram" />
+              </a>
+
+              <a href="" class="w-7">
+                <img src="./assets/twitter.svg" alt="logo twitter" />
+              </a>
+            </div>
+          </section>
+        </div>
+      </footer>
     </main>
   </body>
 </html>
